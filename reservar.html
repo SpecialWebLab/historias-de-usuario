@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Productos - Barbería Dan</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre</label>
+                <input type="text" id="nombreapellido" class="input-padron" required placeholder="Nombre">
+
+                <label for="apellido">Apellido </label>
+                <input type="text" id="apellido" class="input-padron" required placeholder="Apellido">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX"> 
+                <label for="start">Fecha del servicio</label>
+<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+<br><br>
+                    <label>Horario del servicio</label>
+                    <select>
+                        <option>08h ~ 20h</option>
+                        <option>08h ~ 20h</option>
+                        <option>08h ~ 20h</option>
+                    </select><br><br>
+                <input type="submit" value="Pedir Cita" class="enviar">
+
+            </form>
+        </main>
+
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy Copyright Barbería Dan - 2020</p>
+        </footer>
+    </body>
+</html>
